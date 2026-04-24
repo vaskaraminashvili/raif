@@ -1,0 +1,234 @@
+<?php
+
+use Livewire\Attributes\Title;
+use Livewire\Component;
+
+new #[Title('Contact Us')] class extends Component
+{
+    //
+};
+?>
+
+<div>
+    <!-- breadcrumb-section start -->
+    <section class="breadcrumb-section">
+        <div class="container-fluid">
+            <div class="row g-0">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="breadcrumb-content" style="background-image: url(assets/img/bg/breadcrumb-bg.webp);">
+                        <div class="breadcrumb-nav" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <ul>
+                                <li><a href="index-2.html">Home</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="breadcrumb-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                            <h2>Contact Us</h2>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block">
+                    <div class="breadcrumb-thumb">
+                        <img src="{{ asset('assets/img/thumbs/thumb-1.webp') }}" alt="thumb">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- breadcrumb-section end -->
+
+    <!-- services-section start -->
+    <section class="services-section p-t-120">
+        <div class="container">
+            <div class="row" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                <div class="col-xl-4">
+                    <div class="service-card">
+                        <div class="service-top">
+                            <h4>Our Location</h4>
+                            <i class="fa-light fa-location-dot"></i>
+                        </div>
+                        <div class="service-content">
+                            <p>2972 Westheimer Rd. Santa Ana,<br> Illinois 85486 </p>
+                        </div>
+                        <div class="i-shape">
+                            <i class="fa-light fa-location-dot"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="service-card">
+                        <div class="service-top">
+                            <h4>Phone
+                                Numbers</h4>
+                            <i class="fa-light fa-phone-volume"></i>
+                        </div>
+                        <div class="service-content">
+                            <p>+02 (54) 669 - 2589 <br>
+                                +00 (307) 555 - 0133 </p>
+                        </div>
+                        <div class="i-shape">
+                            <i class="fa-light fa-phone-volume"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="service-card">
+                        <div class="service-top">
+                            <h4>Email
+                                Address</h4>
+                            <i class="fa-light fa-envelope"></i>
+                        </div>
+                        <div class="service-content">
+                            <p>bizcase.info@example.com
+                                support@example.com</p>
+                        </div>
+                        <div class="i-shape">
+                            <i class="fa-light fa-envelope"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services-section end -->
+
+    <!-- contact-section start -->
+    <div class="contact-section p-t-120 p-b-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-9">
+                    <div class="contact-form-wrap" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <h3>Get in touch with our team</h3>
+                        <p>Fill out the form and Feel free to say !!</p>
+                        <form id="contact-form" action="https://econest.pixcelsthemes.com/assets/mail.php"
+                            method="post">
+                            <div class="row form-row">
+                                <div class="col-xl-6">
+                                    <div class="input-wrap">
+                                        <input type="text" placeholder="Full Name" name="name">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="input-wrap">
+                                        <input type="tel" placeholder="Phone Number" name="phone">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row form-row">
+                                <div class="col-xl-6">
+                                    <div class="input-wrap">
+                                        <input type="email" placeholder="Email Address" name="email">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="input-wrap">
+                                        <input type="text" placeholder="Current Location" name="location">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row form-row">
+                                <div class="col-xl-6">
+                                    <div class="input-wrap">
+                                        <input type="text" placeholder="Date of Birth" name="date">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="select-wrap">
+                                        <select name="occupation">
+                                            <option value="0">Occupation</option>
+                                            <option value="1">Doctor</option>
+                                            <option value="2">Engineer</option>
+                                            <option value="3">Teacher</option>
+                                        </select>
+                                        <div class="select-icon">
+                                            <i class="fa-regular fa-angle-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="input-wrap">
+                                        <textarea placeholder="Say Something..." name="message"></textarea>
+                                    </div>
+                                    <div class="input-button">
+                                        <button type="submit" class="e-primary-btn has-icon">
+                                            Submit Now
+                                            <span class="icon-wrap">
+                                                <span class="icon"><i class="fa-regular fa-arrow-right"></i><i
+                                                        class="fa-regular fa-arrow-right"></i></span>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <p class="form-message"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c-shape-1">
+            <img src="assets/img/shapes/shape-34.html" alt="shape">
+        </div>
+        <div class="c-shape-2">
+            <img src="assets/img/shapes/shape-35.html" alt="shape">
+        </div>
+    </div>
+    <!-- contact-section end -->
+
+    <!-- map-section start -->
+    <div class="map-section">
+        <div class="contact-map" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.9740031200513!2d-122.44247972367066!3d37.74375411394556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e739760c5d9%3A0x9ad85f5ebc3112d4!2s5214f%20Diamond%20Heights%20Blvd%20%23553%2C%20San%20Francisco%2C%20CA%2094131%2C%20USA!5e0!3m2!1sen!2sbd!4v1743169375746!5m2!1sen!2sbd"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <!-- map-section end -->
+
+    <!-- contact-info-section start -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="contact-info-layout">
+                        <a href="mailto:support.econest@gmail.com" class="contact-info active">
+                            <div class="icon-wrap">
+                                <div class="icon-shape"></div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                </div>
+                            </div>
+                            <h3>support.econest@gmail.com</h3>
+                            <p>Send a Email</p>
+                        </a>
+                        <a href="tel:+70264566579" class="contact-info">
+                            <div class="icon-wrap">
+                                <div class="icon-shape"></div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-phone-arrow-up-right"></i>
+                                </div>
+                            </div>
+                            <h3>+70 264 566 579</h3>
+                            <p>Any Time Call Us</p>
+                        </a>
+                        <a href="#" class="contact-info">
+                            <div class="icon-wrap">
+                                <div class="icon-shape"></div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                            </div>
+                            <h3>Jones Street, New York, USA</h3>
+                            <p>Our Address</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact-info-section end -->
+</div>

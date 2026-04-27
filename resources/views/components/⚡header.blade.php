@@ -2,8 +2,7 @@
 
 use Livewire\Component;
 
-new class extends Component
-{
+new class extends Component {
     //
 };
 ?>
@@ -15,7 +14,7 @@ new class extends Component
             <div class="header-left">
                 <div class="logo-wrap-2">
                     <a href="index-2.html">
-                        <img src="assets/img/logo/logo-white.svg" alt="logo" />
+                        <img src="assets/img/logo/logo-white.svg" alt="logo"/>
                     </a>
                 </div>
             </div>
@@ -27,7 +26,24 @@ new class extends Component
                                 <a href="{{ route('welcome') }}">Home</a>
                             </li>
 
-                            <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
+                            <li class="has-dropdown">
+                                <a href="#">Funds</a>
+                                <ul class="sub-menu">
+                                    <li><a href="{{ route('about-the-fund') }}">About the Fund</a></li>
+                                    <li><a href="{{ route('sub-funds') }}">Sub-Funds</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Documents</a>
+                                <ul class="sub-menu">
+                                    <li><a href="{{ route('documents') }}">Documents</a></li>
+                                    <li><a href="{{ route('governance-service-providers') }}">Governance & Service
+                                            Providers</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="{{ route('about-the-group') }}">About the Group</a></li>
+                            <li><a href="{{ route('contact-us') }}">Contact</a></li>
+                            <li><a href="{{ route('how-to-invest') }}">How to Invest</a></li>
                         </ul>
                     </nav>
                     <div class="header-info-wrap">
@@ -66,5 +82,5 @@ new class extends Component
     </header>
     <!-- header-section end -->
 
-    <livewire:off-canvas-menubar />
+    <livewire:off-canvas-menubar/>
 </div>

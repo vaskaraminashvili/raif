@@ -3,11 +3,959 @@
 use Livewire\Attributes\Title;
 use Livewire\Component;
 
-new #[Title('About the Group')] class extends Component
-{
-	//
+new #[Title('About the Group')]
+class extends Component {
+    //
 };
 ?>
 
-<div></div>
+<div>
+    <!-- why-us-section start -->
+    <section class="why-us-section-6 p-t-100 p-t-xs-80" style="">
+        <div class="container">
+            <div class="row align-items-center p-b-80">
+                <div class="col-xl-6">
+                    <div class="thumb px-lg-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                        <div class="thumb-1">
+                            <img src="https://econest-html.netlify.app/econest/assets/img/thumbs/thumb-24.webp"
+                                 alt="thumb-1"/>
+                            <div class="s-shape">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/shapes/shape-14.webp"
+                                     alt="shape-1"/>
+                            </div>
+                        </div>
+                        <div class="thumb-2">
+                            <img src="https://econest-html.netlify.app/econest/assets/img/thumbs/thumb-25.webp"
+                                 alt="thumb-2"/>
+                        </div>
+                        <div class="thumb-3">
+                            <div class="shape-wrapped-thumb">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/thumbs/thumb-26.webp"
+                                     alt="thumb-3"/>
+                                <div class="experience-shape">
+                                    <h3>
+                                        <span class="purecounter" data-purecounter-duration="2"
+                                              data-purecounter-end="29">0</span>+
+                                    </h3>
+                                    <p>Years of experience</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="why-us-content" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="common-subtitle">
+                            <img src="https://econest-html.netlify.app/econest/assets/img/icons/icon-2.svg"
+                                 alt="icon-2"/>
+                            <span>Who We Are</span>
+                        </div>
+                        <div class="common-title text-start">
+                            <h2>Some Reasons to Choose (Econest Organization)</h2>
+                        </div>
+                        <div class="text">
+                            <p>
+                                We work to protect and restore the natural environment.
+                                then a dental prosthetic is added then dental prosthetic
+                                occaecat laborum.
+                            </p>
+                        </div>
+                        <div class="services">
+                            <div class="service-left">
+                                <div class="service">
+                                    <i class="fa-solid fa-check"></i>
+                                    <p>Specialized Company</p>
+                                </div>
+                                <div class="service">
+                                    <i class="fa-solid fa-check"></i>
+                                    <p>Licensed & Insured</p>
+                                </div>
+                            </div>
+                            <div class="service-right">
+                                <div class="service">
+                                    <i class="fa-solid fa-check"></i>
+                                    <p>Dependable Services</p>
+                                </div>
+                                <div class="service">
+                                    <i class="fa-solid fa-check"></i>
+                                    <p>Day Scheduling</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="annual-donation-wrap">
+                            <div class="blog-btn">
+                                <a href="project.html" class="e-primary-btn has-icon">
+                                    Explore More
+                                    <span class="icon-wrap">
+                                            <span class="icon"><i class="fa-regular fa-arrow-right"></i><i
+                                                    class="fa-regular fa-arrow-right"></i></span>
+                                        </span>
+                                </a>
+                            </div>
+                            <div class="annual-donation">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/icons/icon-4.svg"
+                                     alt="icon-4"/>
+                                <div class="annual-text">
+                                    <p>Annual Donation</p>
+                                    <h5>$2,056,00</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- company-achievements start -->
+            <div class="company-achievements p-b-100 p-b-xs-80" data-aos="fade-up" data-aos-duration="1000"
+                 data-aos-delay="200">
+                <div class="achievement achievement-2">
+                    <i class="fa-light fa-chart-mixed"></i>
+                    <h2>
+                        <span class="purecounter" data-purecounter-duration="2" data-purecounter-end="98">0</span>%
+                    </h2>
+                    <p>Company Success</p>
+                </div>
+                <div class="achievement achievement-2">
+                    <i class="fa-light fa-lightbulb-exclamation-on"></i>
+                    <h2>
+                        <span class="purecounter" data-purecounter-duration="2" data-purecounter-end="565">0</span>+
+                    </h2>
+                    <p>Company Strategies</p>
+                </div>
+                <div class="achievement achievement-2">
+                    <i class="fa-light fa-thumbs-up"></i>
+                    <h2>
+                        <span class="purecounter" data-purecounter-duration="2" data-purecounter-end="36">0</span>k
+                    </h2>
+                    <p>Complete Projects</p>
+                </div>
+                <div class="achievement achievement-2">
+                    <i class="fa-light fa-users-medical"></i>
+                    <h2>
+                        <span class="purecounter" data-purecounter-duration="2" data-purecounter-end="100">0</span>+
+                    </h2>
+                    <p>Experienced Members</p>
+                </div>
+            </div>
+            <!-- company-achievements end -->
+        </div>
+    </section>
+    <!-- why-us-section end -->
+
+    <!-- about-us-section-3 start -->
+    <section class="about-us-section-3" style="
+          background-image: url({{asset('https://econest-html.netlify.app/econest/assets/img/bg/why-us-bg.webp')}}),
+            url({{asset('https://econest-html.netlify.app/econest/assets/img/bg/about-us-bg.webp')}});
+        ">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-xl-6 adjusted-margin">
+                    <div class="about-us-content adjusted-padding" data-aos="fade-up" data-aos-duration="1000"
+                         data-aos-delay="200">
+                        <div class="common-subtitle">
+                            <img src="https://econest-html.netlify.app/econest/assets/img/icons/icon-2.svg"
+                                 alt="icon-2"/>
+                            <span>Our History</span>
+                        </div>
+                        <div class="common-title text-start">
+                            <h2>Journey Was Started</h2>
+                        </div>
+                        <div class="c-tabs-wrapper">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="c-tab-1" data-bs-toggle="tab"
+                                            data-bs-target="#c-tab-1-pane" type="button" role="tab"
+                                            aria-controls="c-tab-1-pane" aria-selected="true">
+                                        2020
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="c-tab-2" data-bs-toggle="tab"
+                                            data-bs-target="#c-tab-2-pane" type="button" role="tab"
+                                            aria-controls="c-tab-2-pane" aria-selected="false">
+                                        2021
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="c-tab-3" data-bs-toggle="tab"
+                                            data-bs-target="#c-tab-3-pane" type="button" role="tab"
+                                            aria-controls="c-tab-3-pane" aria-selected="false">
+                                        2022
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="c-tab-4" data-bs-toggle="tab"
+                                            data-bs-target="#c-tab-4-pane" type="button" role="tab"
+                                            aria-controls="c-tab-4-pane" aria-selected="false">
+                                        2023
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="c-tab-5" data-bs-toggle="tab"
+                                            data-bs-target="#c-tab-5-pane" type="button" role="tab"
+                                            aria-controls="c-tab-5-pane" aria-selected="false">
+                                        2024
+                                    </button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="c-tab-1-pane" role="tabpanel"
+                                     aria-labelledby="c-tab-1" tabindex="0">
+                                    <div class="tab-content">
+                                        <div class="year">
+                                            <h6>Year 2020</h6>
+                                        </div>
+                                        <div class="reward">
+                                            <h5>Got First Reward From (NYC)</h5>
+                                        </div>
+                                        <div class="text">
+                                            <p>
+                                                Despite applying for three times and even hiring a
+                                                lawyer to assist with the process. Morgan was unable
+                                                to get authorization’ to fly to the USA for the
+                                                premiere of her film about a factory-farmed pig.
+                                            </p>
+                                        </div>
+                                        <div class="annual-donation-wrap">
+                                            <a href="project.html" class="e-primary-btn has-icon">
+                                                See Our Achievement
+                                                <span class="icon-wrap">
+                                                    <span class="icon"><i class="fa-regular fa-arrow-right"></i><i
+                                                            class="fa-regular fa-arrow-right"></i></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="c-tab-2-pane" role="tabpanel" aria-labelledby="c-tab-2"
+                                     tabindex="0">
+                                    <div class="tab-content">
+                                        <div class="year">
+                                            <h6>Year 2021</h6>
+                                        </div>
+                                        <div class="reward">
+                                            <h5>Got First Reward From (NYC)</h5>
+                                        </div>
+                                        <div class="text">
+                                            <p>
+                                                Despite applying for three times and even hiring a
+                                                lawyer to assist with the process. Morgan was unable
+                                                to get authorization’ to fly to the USA for the
+                                                premiere of her film about a factory-farmed pig.
+                                            </p>
+                                        </div>
+                                        <div class="annual-donation-wrap">
+                                            <a href="project.html" class="e-primary-btn has-icon">
+                                                See Our Achievement
+                                                <span class="icon-wrap"><span class="icon">
+                                                        <i class="fa-regular fa-arrow-right"></i><i
+                                                            class="fa-regular fa-arrow-right"></i></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="c-tab-3-pane" role="tabpanel" aria-labelledby="c-tab-3"
+                                     tabindex="0">
+                                    <div class="tab-content">
+                                        <div class="year">
+                                            <h6>Year 2022</h6>
+                                        </div>
+                                        <div class="reward">
+                                            <h5>Got First Reward From (NYC)</h5>
+                                        </div>
+                                        <div class="text">
+                                            <p>
+                                                Despite applying for three times and even hiring a
+                                                lawyer to assist with the process. Morgan was unable
+                                                to get authorization’ to fly to the USA for the
+                                                premiere of her film about a factory-farmed pig.
+                                            </p>
+                                        </div>
+                                        <div class="annual-donation-wrap">
+                                            <a href="project.html" class="e-primary-btn has-icon">
+                                                See Our Achievement
+                                                <span class="icon-wrap">
+													<span class="icon"><i class="fa-regular fa-arrow-right"></i><i
+                                                            class="fa-regular fa-arrow-right"></i></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="c-tab-4-pane" role="tabpanel" aria-labelledby="c-tab-4"
+                                     tabindex="0">
+                                    <div class="tab-content">
+                                        <div class="year">
+
+
+                                            <h6>Year 2023</h6>
+                                        </div>
+                                        <div class="reward">
+                                            <h5>Got First Reward From (NYC)</h5>
+                                        </div>
+                                        <div class="text">
+                                            <p>
+                                                Despite applying for three times and even hiring a
+                                                lawyer to assist with the process. Morgan was unable
+                                                to get authorization’ to fly to the USA for the
+                                                premiere of her film about a factory-farmed pig.
+                                            </p>
+                                        </div>
+                                        <div class="annual-donation-wrap">
+                                            <a href="project.html" class="e-primary-btn has-icon">
+                                                See Our Achievement
+                                                <span class="icon-wrap">
+													<span class="icon"><i class="fa-regular fa-arrow-right"></i><i
+                                                            class="fa-regular fa-arrow-right"></i></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="c-tab-5-pane" role="tabpanel" aria-labelledby="c-tab-5"
+                                     tabindex="0">
+                                    <div class="tab-content">
+                                        <div class="year">
+                                            <h6>Year 2024</h6>
+                                        </div>
+                                        <div class="reward">
+                                            <h5>Got First Reward From (NYC)</h5>
+                                        </div>
+                                        <div class="text">
+                                            <p>
+                                                Despite applying for three times and even hiring a
+                                                lawyer to assist with the process. Morgan was unable
+                                                to get authorization’ to fly to the USA for the
+                                                premiere of her film about a factory-farmed pig.
+                                            </p>
+                                        </div>
+                                        <div class="annual-donation-wrap">
+                                            <a href="project.html" class="e-primary-btn has-icon">
+                                                See Our Achievement
+                                                <span class="icon-wrap">
+													<span class="icon"><i class="fa-regular fa-arrow-right"></i><i
+                                                            class="fa-regular fa-arrow-right"></i></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about-us-section-3 end -->
+
+    <!-- volunteer-section start -->
+    <section class="volunteer-section p-t-120 p-b-120 p-t-xs-80 p-b-xs-80" style="background-color: #f8f7f0">
+        <div class="container">
+            <div class="section-top-13">
+                <div class="left">
+
+
+                    <div class="common-subtitle" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <img src="https://econest-html.netlify.app/econest/assets/img/icons/icon-2.svg" alt="icon-2"/>
+                        <span>We Are Volunteer</span>
+                    </div>
+                    <div class="common-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <h2>Together For The Planet</h2>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="contact-details" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                        <div class="details-btn">
+                            <a href="volunteer.html" class="e-primary-btn has-icon">
+                                View All Volunteer
+                                <span class="icon-wrap">
+									<span class="icon"><i class="fa-regular fa-arrow-right"></i><i
+                                            class="fa-regular fa-arrow-right"></i></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="join-us-btn">
+                            <img src="https://econest-html.netlify.app/econest/assets/img/shapes/shape-12.webp"
+                                 alt="shape-12"/>
+                            <a href="be-volunteer.html" class="review-btn">
+                                <span>If you want to join us, you can</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-gap-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="volunteer-card-4">
+                        <a href="volunteer-details.html">
+                            <div class="thumb">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/thumbs/thumb-17.webp"
+                                     alt="thumb-17"/>
+                            </div>
+                            <div class="author-info">
+                                <h5>Joshua Sendu</h5>
+                                <p>CEO-Founder</p>
+                            </div>
+                        </a>
+                        <div class="socials">
+                            <button class="share-button">
+                                <i class="fa-light fa-share-nodes"></i>
+                            </button>
+                            <div class="social-links">
+                                <a href="https://facebook.com/">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://twitter.com/">
+                                    <i class="fab fa-x-twitter"></i>
+                                </a>
+                                <a href="https://www.instagram.com/">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="volunteer-card-4">
+                        <a href="volunteer-details.html">
+                            <div class="thumb">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/thumbs/thumb-18.webp"
+                                     alt="thumb-18"/>
+                            </div>
+                            <div class="author-info">
+                                <h5>John Maxwell</h5>
+                                <p>Team Leader</p>
+                            </div>
+                        </a>
+                        <div class="socials">
+                            <button class="share-button">
+                                <i class="fa-light fa-share-nodes"></i>
+                            </button>
+                            <div class="social-links">
+                                <a href="https://facebook.com/">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://twitter.com/">
+                                    <i class="fab fa-x-twitter"></i>
+                                </a>
+                                <a href="https://www.instagram.com/">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="volunteer-card-4">
+                        <a href="volunteer-details.html">
+                            <div class="thumb">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/thumbs/thumb-19.webp"
+                                     alt="thumb-19"/>
+                            </div>
+                            <div class="author-info">
+                                <h5>Bm Ashik (Moni)</h5>
+                                <p>Sr. Volunteer</p>
+                            </div>
+                        </a>
+                        <div class="socials">
+                            <button class="share-button">
+                                <i class="fa-light fa-share-nodes"></i>
+                            </button>
+                            <div class="social-links">
+                                <a href="https://facebook.com/">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://twitter.com/">
+                                    <i class="fab fa-x-twitter"></i>
+                                </a>
+                                <a href="https://www.instagram.com/">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="volunteer-card-4">
+                        <a href="volunteer-details.html">
+                            <div class="thumb">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/thumbs/thumb-20.webp"
+                                     alt="thumb-20"/>
+                            </div>
+                            <div class="author-info">
+                                <h5>Denial Pasha</h5>
+                                <p>Volunteer</p>
+                            </div>
+                        </a>
+                        <div class="socials">
+                            <button class="share-button">
+                                <i class="fa-light fa-share-nodes"></i>
+                            </button>
+                            <div class="social-links">
+                                <a href="https://facebook.com/">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://twitter.com/">
+                                    <i class="fab fa-x-twitter"></i>
+                                </a>
+                                <a href="https://www.instagram.com/">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- volunteer-section end -->
+
+    <!-- testimonial start -->
+    <section class="testimonial p-t-120 p-t-xs-80">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-xl-4 m-b-lg-60 m-b-md-60 m-b-xs-60">
+                    <div class="testimonial-content" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="common-subtitle">
+                            <img src="https://econest-html.netlify.app/econest/assets/img/icons/icon-2.svg"
+                                 alt="icon-2"/>
+                            <span>Testimonials</span>
+                        </div>
+                        <div class="common-title text-start">
+                            <h2>
+                                Why They Believe
+                                <span><i class="fa-solid fa-quote-right"></i>In Us</span>
+                            </h2>
+                        </div>
+                        <div class="text">
+                            <p>
+                                Our clients are highly satisfied and recommend our services.
+                            </p>
+                        </div>
+                        <div class="reviews">
+                            <h3>
+                                <span class="purecounter" data-purecounter-duration="2"
+                                      data-purecounter-end="99">0</span>%
+                            </h3>
+                            <img src="https://econest-html.netlify.app/econest/assets/img/logo/favicon.webp"
+                                 alt="favicon"/>
+                            <h5>Positive Reviews</h5>
+                        </div>
+                        <a href="contact.html" class="review-btn">
+                            <img src="https://econest-html.netlify.app/econest/assets/img/icons/icon-3.html"
+                                 alt="icon"/>
+                            <span><span>Write your honest review</span><i
+                                    class="fa-solid fa-arrow-right-long"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-8">
+                    <div class="testimonial-slider-active" data-aos="fade-up" data-aos-duration="1000"
+                         data-aos-delay="400">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <div class="thumb">
+                                            <img
+                                                src="https://econest-html.netlify.app/econest/assets/img/thumbs/thumb-10.webp"
+                                                alt="thumb-10"/>
+                                            <a href="https://www.youtube.com/watch?v=fLeJJPxua3E&amp;ab_channel=Motiversity"
+                                               data-fancybox class="video-play-btn">Play</a>
+                                        </div>
+                                        <div class="card-content">
+                                            <div class="rating">
+                                                <p>Rating</p>
+                                                <i class="fa-solid fa-star-sharp"></i>
+                                                <span>5.0</span>
+                                            </div>
+                                            <div class="review">
+                                                <p>
+                                                    I was very impressed — they provided excellent advice and guidance.
+                                                    advice and guidance on energy-related for matters.
+                                                    Understand the advantages hiring professionals to
+                                                    design and maintain your garden. 🙋
+                                                </p>
+                                            </div>
+                                            <div class="author-details">
+                                                <h5>
+                                                    Penelope Miller
+                                                    <span> (Arjun) </span>
+                                                </h5>
+                                                <h6>Sr. Volunteer</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <div class="thumb">
+                                            <img
+                                                src="https://econest-html.netlify.app/econest/assets/img/thumbs/thumb-10.2.webp"
+                                                alt="thumb-10"/>
+                                            <a href="https://www.youtube.com/watch?v=fLeJJPxua3E&amp;ab_channel=Motiversity"
+                                               data-fancybox class="video-play-btn">Play</a>
+                                        </div>
+                                        <div class="card-content">
+                                            <div class="rating">
+                                                <p>Rating</p>
+                                                <i class="fa-solid fa-star-sharp"></i>
+                                                <span>5.0</span>
+                                            </div>
+                                            <div class="review">
+                                                <p>
+                                                    I was very impressed — they provided excellent advice and guidance.
+                                                    advice and guidance on energy-related for matters.
+                                                    Understand the advantages hiring professionals to
+                                                    design and maintain your garden. 🙋
+                                                </p>
+                                            </div>
+                                            <div class="author-details">
+                                                <h5>
+                                                    Penelope Miller
+                                                    <span> (Arjun) </span>
+                                                </h5>
+                                                <h6>Sr. Volunteer</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <div class="thumb">
+                                            <img
+                                                src="https://econest-html.netlify.app/econest/assets/img/thumbs/thumb-10.3.webp"
+                                                alt="thumb-10"/>
+                                            <a href="https://www.youtube.com/watch?v=fLeJJPxua3E&amp;ab_channel=Motiversity"
+                                               data-fancybox class="video-play-btn">Play</a>
+                                        </div>
+                                        <div class="card-content">
+                                            <div class="rating">
+                                                <p>Rating</p>
+                                                <i class="fa-solid fa-star-sharp"></i>
+                                                <span>5.0</span>
+                                            </div>
+                                            <div class="review">
+                                                <p>
+                                                    I was very impressed — they provided excellent advice and guidance.
+                                                    advice and guidance on energy-related for matters.
+                                                    Understand the advantages hiring professionals to
+                                                    design and maintain your garden. 🙋
+                                                </p>
+                                            </div>
+                                            <div class="author-details">
+                                                <h5>
+                                                    Penelope Miller
+                                                    <span> (Arjun) </span>
+                                                </h5>
+                                                <h6>Sr. Volunteer</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <div class="thumb">
+                                            <img
+                                                src="https://econest-html.netlify.app/econest/assets/img/thumbs/thumb-10.2.webp"
+                                                alt="thumb-10"/>
+                                            <a href="https://www.youtube.com/watch?v=fLeJJPxua3E&amp;ab_channel=Motiversity"
+                                               data-fancybox class="video-play-btn">Play</a>
+                                        </div>
+                                        <div class="card-content">
+                                            <div class="rating">
+                                                <p>Rating</p>
+                                                <i class="fa-solid fa-star-sharp"></i>
+                                                <span>5.0</span>
+                                            </div>
+                                            <div class="review">
+                                                <p>
+                                                    I was very impressed — they provided excellent advice and guidance.
+                                                    advice and guidance on energy-related for matters.
+                                                    Understand the advantages hiring professionals to
+                                                    design and maintain your garden. 🙋
+                                                </p>
+                                            </div>
+                                            <div class="author-details">
+                                                <h5>
+                                                    Penelope Miller
+                                                    <span> (Arjun) </span>
+                                                </h5>
+                                                <h6>Sr. Volunteer</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial end -->
+
+    <!-- major-partners start -->
+    <section class="major-partners p-t-80 p-b-140 p-b-xs-80">
+        <div class="container">
+            <div class="partners-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <div class="line-right">
+                    <img src="https://econest-html.netlify.app/econest/assets/img/shapes/shape-4.webp" alt="shape-4"/>
+                </div>
+                <h3>Major Partners</h3>
+                <div class="line">
+                    <img src="https://econest-html.netlify.app/econest/assets/img/shapes/shape-4.webp" alt="shape-4"/>
+                </div>
+            </div>
+            <div class="row p-t-60 p-b-60" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                <div class="col-xl-12">
+                    <div class="partner-marquee">
+                        <div class="partner-marquee-layout">
+                            <div class="partner-1">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/logo/logo-2.webp"
+                                     alt="partner-logo"/>
+                            </div>
+                            <div class="partner-1">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/logo/logo-3.webp"
+                                     alt="partner-logo"/>
+                            </div>
+                            <div class="partner-1">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/logo/logo-4.webp"
+                                     alt="partner-logo"/>
+                            </div>
+                            <div class="partner-1">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/logo/logo-5.webp"
+                                     alt="partner-logo"/>
+                            </div>
+                            <div class="partner-1">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/logo/logo-6.webp"
+                                     alt="partner-logo"/>
+                            </div>
+                            <div class="partner-1">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/logo/logo-7.webp"
+                                     alt="partner-logo"/>
+                            </div>
+                        </div>
+                        <div class="partner-marquee-layout">
+                            <div class="partner-1">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/logo/logo-2.webp"
+                                     alt="partner-logo"/>
+                            </div>
+                            <div class="partner-1">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/logo/logo-3.webp"
+                                     alt="partner-logo"/>
+                            </div>
+                            <div class="partner-1">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/logo/logo-4.webp"
+                                     alt="partner-logo"/>
+                            </div>
+                            <div class="partner-1">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/logo/logo-5.webp"
+                                     alt="partner-logo"/>
+                            </div>
+                            <div class="partner-1">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/logo/logo-6.webp"
+                                     alt="partner-logo"/>
+                            </div>
+                            <div class="partner-1">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/logo/logo-7.webp"
+                                     alt="partner-logo"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="partner-btn text-center">
+                <a href="contact.html" class="e-primary-btn has-icon" data-aos="fade-up" data-aos-duration="1000"
+                   data-aos-delay="600">
+                    Become a Partner
+                    <span class="icon-wrap">
+						<span class="icon"><i class="fa-regular fa-arrow-right"></i><i
+                                class="fa-regular fa-arrow-right"></i></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- major-partners end -->
+
+    <!-- our-events-section-2 start -->
+    <section class="our-events-section-2 p-t-120 p-b-120 p-t-xs-80 p-b-xs-80 m-b-100">
+        <div class="container">
+            <div class="row align-items-end m-b-60 m-b-xs-40">
+                <div class="col-xl-6 col-md-8 m-b-xs-20">
+                    <div class="common-subtitle" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <img src="https://econest-html.netlify.app/econest/assets/img/icons/icon-2.svg" alt="icon-1"/>
+                        <span>Our Arrange</span>
+                    </div>
+                    <div class="common-title m-b-0 style-color-3 text-start" data-aos="fade-up" data-aos-duration="1000"
+                         data-aos-delay="400">
+                        <h2>Econest Upcoming Events</h2>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-4 text-md-end">
+                    <a href="camping.html" class="e-primary-btn has-icon" data-aos="fade-up" data-aos-duration="1000"
+                       data-aos-delay="600">
+                        View All Events
+                        <span class="icon-wrap">
+							<span class="icon"><i class="fa-regular fa-arrow-right"></i><i
+                                    class="fa-regular fa-arrow-right"></i></span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="row" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                <div class="col-xl-12">
+                    <div class="event-card-2 m-b-30">
+                        <div class="event-thumb">
+                            <a href="camping-details.html">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/thumbs/thumb-36.webp"
+                                     alt="thumb-1"/>
+                            </a>
+                            <div class="event-date">
+                                <h5>12 Jan-20 Jan, 2026</h5>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="event-card-title">
+                                <h2>
+                                    <a href="camping-details.html">
+                                        The forest is our life, it is our job to keep the forest
+                                        clean
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="address">
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <span>8:30am - 4:00pm</span>
+                                </div>
+                                <div class="location">
+                                    <i class="fa-regular fa-location-dot"></i>
+                                    <span>Jones Street, New York</span>
+                                </div>
+                            </div>
+                            <div class="join-event">
+                                <div class="blog-btn">
+                                    <a href="camping-details.html" class="e-primary-btn has-icon">
+                                        Join Event
+                                        <span class="icon-wrap">
+											<span class="icon"><i class="fa-regular fa-arrow-right"></i><i
+                                                    class="fa-regular fa-arrow-right"></i></span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="top-right">
+                                    <img src="https://econest-html.netlify.app/econest/assets/img/authors/author-1.webp"
+                                         alt="authors"/>
+                                    <div class="people-joined">
+                                        <h5>236</h5>
+                                        <span>Joined People</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event-card-2">
+                        <div class="event-thumb">
+                            <a href="camping-details.html">
+                                <img src="https://econest-html.netlify.app/econest/assets/img/thumbs/thumb-37.webp"
+                                     alt="thumb-2"/>
+                            </a>
+                            <div class="event-date">
+                                <h5>12 Jan-20 Jan, 2026</h5>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="event-card-title">
+                                <h2>
+                                    <a href="camping-details.html">
+                                        The forest is our life, it is our job to keep the forest
+                                        clean
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="address">
+                                <div class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <span>9:00am - 6:00pm</span>
+                                </div>
+                                <div class="location">
+                                    <i class="fa-regular fa-location-dot"></i>
+                                    <span>85 Great Portland Street, London</span>
+                                </div>
+                            </div>
+                            <div class="join-event">
+                                <div class="blog-btn">
+                                    <a href="camping-details.html" class="e-primary-btn has-icon">
+                                        Join Event
+                                        <span class="icon-wrap">
+                                            <span class="icon"><i class="fa-regular fa-arrow-right"></i><i
+                                                    class="fa-regular fa-arrow-right"></i></span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="top-right">
+                                    <img src="https://econest-html.netlify.app/econest/assets/img/authors/author-1.webp"
+                                         alt="authors"/>
+                                    <div class="people-joined">
+                                        <h5>162</h5>
+                                        <span>Joined People</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our-events-section-2 end -->
+
+    <!-- contact-info-section start -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="contact-info-layout">
+                        <a href="mailto:support.econest@gmail.com" class="contact-info active">
+                            <div class="icon-wrap">
+                                <div class="icon-shape"></div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                </div>
+                            </div>
+                            <h3>support.econest@gmail.com</h3>
+                            <p>Send a Email</p>
+                        </a>
+                        <a href="tel:+70264566579" class="contact-info">
+                            <div class="icon-wrap">
+                                <div class="icon-shape"></div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-phone-arrow-up-right"></i>
+                                </div>
+                            </div>
+                            <h3>+70 264 566 579</h3>
+                            <p>Any Time Call Us</p>
+                        </a>
+                        <a href="#" class="contact-info">
+                            <div class="icon-wrap">
+                                <div class="icon-shape"></div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                            </div>
+                            <h3>Jones Street, New York, USA</h3>
+                            <p>Our Address</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact-info-section end -->
+</div>
 

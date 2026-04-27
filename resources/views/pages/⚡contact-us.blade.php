@@ -3,40 +3,14 @@
 use Livewire\Attributes\Title;
 use Livewire\Component;
 
-new #[Title('Contact Us')] class extends Component
-{
+new #[Title('Contact Us')]
+class extends Component {
     //
 };
 ?>
 
 <div>
-    <!-- breadcrumb-section start -->
-    <section class="breadcrumb-section">
-        <div class="container-fluid">
-            <div class="row g-0">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="breadcrumb-content" style="background-image: url(assets/img/bg/breadcrumb-bg.webp);">
-                        <div class="breadcrumb-nav" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                            <ul>
-                                <li><a href="index-2.html">Home</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-                        <div class="breadcrumb-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                            <h2>Contact Us</h2>
-                        </div>
 
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 d-none d-lg-block">
-                    <div class="breadcrumb-thumb">
-                        <img src="{{ asset('assets/img/thumbs/thumb-1.webp') }}" alt="thumb">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- breadcrumb-section end -->
 
     <!-- services-section start -->
     <section class="services-section p-t-120">
@@ -102,7 +76,7 @@ new #[Title('Contact Us')] class extends Component
                         <h3>Get in touch with our team</h3>
                         <p>Fill out the form and Feel free to say !!</p>
                         <form id="contact-form" action="https://econest.pixcelsthemes.com/assets/mail.php"
-                            method="post">
+                              method="post">
                             <div class="row form-row">
                                 <div class="col-xl-6">
                                     <div class="input-wrap">

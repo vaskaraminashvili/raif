@@ -37,8 +37,12 @@ new class extends Component {
                                 <a href="#">Documents</a>
                                 <ul class="sub-menu">
                                     <li><a href="{{ route('documents') }}">Documents</a></li>
-                                    <li><a href="{{ route('governance-service-providers') }}">Governance & Service
-                                            Providers</a></li>
+                                    <li>
+                                        <a href="{{ route('governance-service-providers') }}">
+                                            Governance & Service
+                                            Providers
+                                        </a>
+                                    </li>
                                 </ul>
                             </li>
                             <li><a href="{{ route('about-the-group') }}">About the Group</a></li>

@@ -14,8 +14,8 @@ new class extends Component
         <div class="off-canvas-menubar-body">
             <div class="off-canvas-head">
                 <div class="off-canvas-logo">
-                    <a href="index-2.html">
-                        <img src="assets/img/logo/logo.svg" alt="logo" />
+                    <a href="{{ route('home') }}">
+                        <img src="{{ asset('assets/img/logo/fund_logo.svg') }}" alt="logo" />
                     </a>
                 </div>
                 <div class="off-canvas-menubar-close" data-close="menubar">
@@ -25,42 +25,9 @@ new class extends Component
 
             <div class="off-canvas-menu">
                 <ul>
-                    <li class="has-dropdown">
-                        <a href="#">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="index-2.html">Home 01</a></li>
-                            <li><a href="index-3.html">Home 02</a></li>
-                            <li><a href="index-4.html">Home 03</a></li>
-                            <li><a href="index-5.html">Home 04</a></li>
-                            <li><a href="index-6.html">Home 05</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="about.html">Who we are?</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li class="has-dropdown">
-                        <a href="#">Pages</a>
-                        <ul class="sub-menu">
-                            <li><a href="services-details.html">Services Details</a></li>
-                            <li><a href="project.html">Projects</a></li>
-                            <li><a href="project-details.html">Project Details</a></li>
-                            <li><a href="camping.html">Camping</a></li>
-                            <li><a href="camping-details.html">Camping Details</a></li>
-                            <li><a href="camping-donation.html">Camping Donation</a></li>
-                            <li><a href="donations.html">Donation</a></li>
-                            <li><a href="be-volunteer.html">Become a Volunteer</a></li>
-                            <li><a href="volunteer.html">Volunteers</a></li>
-                            <li><a href="volunteer-details.html">Volunteer Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="has-dropdown">
-                        <a href="#">Blog</a>
-                        <ul class="sub-menu">
-                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                            <li><a href="blog-standard.html">Blog Standard</a></li>
-                            <li><a href="blog-details.html">Blog Details</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    @foreach (\App\Enums\SiteMenu::cases() as $item)
+                        <li><a href="{{ $item->route() }}">{{ $item->label() }}</a></li>
+                    @endforeach
                 </ul>
             </div>
         </div>

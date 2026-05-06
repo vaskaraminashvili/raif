@@ -7,5 +7,16 @@
 
 @theme {
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.header-bottom-layout-2 .header-left {
+    padding: 10px 20px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(14.75px);
+    border-radius: 0 0 16px 16px;
+    border-right: 1.5px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.1);
 }

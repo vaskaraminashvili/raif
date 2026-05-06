@@ -2,12 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::livewire('/', 'pages::welcome')->name('welcome');
+Route::livewire('/', 'pages::welcome')->name('home');
 Route::livewire('/contact-us', 'pages::contact-us')->name('contact-us');
-Route::livewire('/about-the-fund', 'pages::about-the-fund')->name('about-the-fund');
-Route::livewire('/sub-funds', 'pages::sub-funds')->name('sub-funds');
-Route::livewire('/documents', 'pages::documents')->name('documents');
+Route::livewire('/the-fund', 'pages::the-fund')->name('the-fund');
+Route::livewire('/investment-vehicles', 'pages::investment-vehicles')->name('investment-vehicles');
+Route::livewire('/investor-materials', 'pages::investor-materials')->name('investor-materials');
 Route::livewire('/governance-service-providers', 'pages::governance-service-providers')->name('governance-service-providers');
-Route::livewire('/about-the-group', 'pages::about-the-group')->name('about-the-group');
-Route::livewire('/how-to-invest', 'pages::how-to-invest')->name('how-to-invest');
+Route::livewire('/platform-group-companies', 'pages::platform-group-companies')->name('platform-group-companies');
+Route::livewire('/sfdr-sustainability', 'pages::sfdr-sustainability')->name('sfdr-sustainability');
 

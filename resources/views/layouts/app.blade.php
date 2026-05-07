@@ -23,10 +23,10 @@
     <link rel="stylesheet" href="assets/vendor/fancybox/fancybox.css"/>
 
     <!-- Main CSS -->
-    <link rel="stylesheet" href="assets/css/spacing.css"/>
-    <link rel="stylesheet" href="assets/css/main.css"/>
+    {{--    <link rel="stylesheet" href="assets/css/spacing.css"/>--}}
+    {{--    <link rel="stylesheet" href="assets/css/main.css"/>--}}
 
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/css/app.scss', 'resources/js/app.js'])
 
     @livewireStyles
 </head>
